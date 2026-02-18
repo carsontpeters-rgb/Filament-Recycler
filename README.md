@@ -1,1 +1,5 @@
-# Filament-Recycler
+What it does
+It takes old 3d prints that are shredded into small chi[s and melts them and turns that into new filament 
+I made the project to use my old filament and potentially make new filament out of pla pellets I also have enough scraps to save money by making this
+How it works 
+The shredded filament is put in the top funnel then fed into a steel tube with an auger to push the plastic through that steel tube is water cooled to keep the plastic structure from melting then the pla gets pushed into the heating block that has 2 12v cartridge heaters with k type thermocouplers and resistors to measure the heat and adjust the 12v cartridges based of the pwd once the plastic is heated to 210℃ its forced trough a 1.72mm hole. After it goes through the hole there are 2 120mm fans cooling the filament and also the radiator for the water cooling after the filament drops below that it goes into a pulley attached to a stepper motor that will help with the accuracy of the filament diameter once thats all said and done then it gets spooled by hand. 
