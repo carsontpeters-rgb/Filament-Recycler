@@ -1,6 +1,24 @@
+PLA Filament Recycler & Extruder
+I got tired of throwing away failed prints and scraps of PLA, so I designed a machine that can recycle those scraps and turn them back into usable filament. You can also use raw PLA pellets as a material for your filament, which is much cheaper than buying a spool of PLA. Everything was designed from scratch, including the CAD design, electronics, and code.
+
 What it does
-It takes old 3d prints that are shredded into small chips and melts them and turns that into new filament 
-I made the project to use my old filament and potentially make new filament out of pla pellets I also have enough scraps to save money by making this
-How it works 
-The shredded filament is put in the top funnel then fed into a steel tube with an auger to push the plastic through that steel tube is water cooled to keep the plastic structure from melting then the pla gets pushed into the heating block that has 2 12v cartridge heaters with k type thermocouplers and resistors to measure the heat and adjust the 12v cartridges based of the pwd once the plastic is heated to 210℃ its forced trough a 1.72mm hole. After it goes through the hole there are 2 120mm fans cooling the filament and also the radiator for the water cooling after the filament drops below that it goes into a pulley attached to a stepper motor that will help with the accuracy of the filament diameter once thats all said and done then it gets spooled by hand. 
-all of the cad files are sorted into files the one labeld Non 2d printed parts are parts that I am gettting cncd or am buying and the electronics one is all just cad models of the elctronics and the parts file is the file of 3d printed parts.
+The machine can take in shredded 3D print scraps or raw PLA pellets and then melt them down into new 1.75mm filament. You can use this machine to recycle failed prints or support material and turn them back into usable filament. I designed this machine to save money and reduce waste on scraps of PLA that I had already paid for.
+
+How to use it
+1 Shred up old prints into little chips, or better yet, just use raw pellets
+Put these into the top funnel
+2 Plug it in and it will automatically heat up to 210 degrees Celsius
+3 The plastic is pushed through a water-cooled steel barrel by an auger into the hot end
+Melted plastic is pushed out of the hot end by a 1.72mm nozzle
+4 Two 120mm fans cool it just after exiting the nozzle
+5 Cool it again on its way to the spool with a stepper-driven puller, which regulates the filament diameter
+6 Spool it up by hand
+
+How it works
+Feeding
+Plastic goes into a hopper and gets pushed through a steel barrel by an auger. The steel barrel is water-cooled so that the plastic frame won't melt.
+Heating
+The hot part of the extruder has two 12V cartridge heaters that sit in a custom-made heater block. The temperatures are monitored in real time by K-type thermocouples, which the firmware adjusts to maintain a constant 210°C.
+Cooling & diameter
+The filament is rapidly cooled by two 120mm fans directly after it exits the nozzle. The stepper puller controls the filament diameter by varying the speed at which it pulls the filament back from the nozzle; the faster it pulls, the skinnier the filament gets.
+And then you have to spool it by hand.
