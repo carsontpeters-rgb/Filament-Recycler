@@ -22,3 +22,4 @@ The hot part of the extruder has two 12V cartridge heaters that sit in a custom-
 Cooling & diameter
 The filament is rapidly cooled by two 120mm fans directly after it exits the nozzle. The stepper puller controls the filament diameter by varying the speed at which it pulls the filament back from the nozzle; the faster it pulls, the skinnier the filament gets.
 And then you have to spool it by hand.
+here is the link to the onshape file https://cad.onshape.com/documents/965ef3e371facf8326c6ccad/w/3069f94d276a2514269dcc3d/e/2e6ba94b1565259873cbfeca
