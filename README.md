@@ -20,4 +20,5 @@ Cooling & Diameter
 The filament is rapidly cooled by two 120mm fans directly after exiting the nozzle. The stepper puller controls the filament diameter by varying the speed at which it pulls the filament away from the nozzle — the faster it pulls, the thinner the filament gets. You then spool it up by hand.
 
 CAD File Notes
-In the CAD file there are folders named parts, electronics, and non-printed parts. The parts folder contains everything I'll be 3D printing. The electronics folder has STEP files of all the electronics. The non-printed parts I'll either fabricate myself, have CNC'd, or purchase. Here is the link to the OnShape file.
+In the CAD file there are folders named parts, electronics, and non-printed parts. The parts folder contains everything I'll be 3D printing. The electronics folder has STEP files of all the electronics. The non-printed parts I'll either fabricate myself, have CNC'd, or purchase. Here is the link to the OnShape file https://cad.onshape.com/documents/712a637f79dd720bf38c4e9e/w/a795a65476a95b8c58273d13/e/a84f1c8939a0f9925b142090
+the code was uploded using arduino ide to a arduino uno r4
